@@ -1,23 +1,53 @@
-body{
+body {
     margin: 0%;
+    font-family: 'Gentium Book Plus', serif;
 }
 
-.hero{
-    background-color: crimson;
-    width: 100%;
-    height: 500px;
-    padding: 20px;
-    margin: 0%;
+.name {
+    color: rgb(224, 37, 159);
 }
 
-.welcome{
-    text-align: center;
-    font-size: 35px;
-    color: white;
-}
-
-.intro{
-    text-align: center;
+h2 {
     font-size: 30px;
+    color: black;
+}
+
+h3 {
+    color: black;
+    font-size: 25px;
+}
+
+hr {
+    background-color: rgb(255, 255, 255);
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.about {
+    display: flex;
+    background-color: rgb(171, 229, 231);
+}
+
+.half-width {
+    width: 50%;
+    padding: 3%;
+}
+
+.half-width img {
+    width: 70%;
+    padding-left: 10%;
+}
+
+.hire-me-button {
+    background-image: linear-gradient(to bottom right, orange, tomato);
+    text-align: center;
+    font-weight: 700;
     color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
 }
